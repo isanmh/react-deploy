@@ -1,0 +1,13 @@
+npm i gh-pages --save-dev
+
+yard add gh-pages --dev
+
+"homepage": "https://isanmh.me/react-deploy",
+"scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+}
