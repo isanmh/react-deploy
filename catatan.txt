@@ -11,3 +11,5 @@ yard add gh-pages --dev
     "test": "react-scripts test",
     "eject": "react-scripts eject"
 }
+
+git add .
